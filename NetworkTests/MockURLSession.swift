@@ -3,6 +3,7 @@ import NetworkInterfaces
 
 public typealias CompletionHandler = (Data?, URLResponse?, Error?) -> Void
 
+#warning("Why did you decide to subclass URLSession for mocking? What are the pros and cons of this approach?")
 public class MockURLSession: URLSession {
     var data: Data?
     var response: URLResponse?

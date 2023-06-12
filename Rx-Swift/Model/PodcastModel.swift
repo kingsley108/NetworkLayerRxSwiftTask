@@ -31,6 +31,7 @@ struct Record: Codable {
     let screenIdentifier: String
     let offsetMS: Int
 
+    #warning("Why did you need to explicitly define CodingKeys if there is no custom decoding logic?")
     enum CodingKeys: String, CodingKey {
         case id, title, author
         case enclosureLength = "enclosure_length"

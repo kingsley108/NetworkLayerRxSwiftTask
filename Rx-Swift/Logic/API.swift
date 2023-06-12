@@ -2,6 +2,7 @@ import Foundation
 import NetworkInterfaces
 import RxSwift
 
+#warning("Can you explain the purpose of this class?")
 final class API {
     let logic: NetworkLogic
     let disposeBag = DisposeBag()
