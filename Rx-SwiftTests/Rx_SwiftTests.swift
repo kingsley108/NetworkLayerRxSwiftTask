@@ -5,6 +5,10 @@ import XCTest
 @testable import Rx_Swift
 @testable import NetworkTests
 
+#warning("Why tests are in the app and no in the NetworkTests?")
+#warning("Why is it called NetworkManagerTests?")
+#warning("What classes are you testing here?")
+#warning("Imagine you're adding another screen to the app, that fetches catch ups. How many classes will you need to add? What kind of tests will you write?")
 final class NetworkManagerTests: XCTestCase {
 
     var networkManager: NetworkService!
