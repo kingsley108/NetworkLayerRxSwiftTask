@@ -1,9 +1,9 @@
 import XCTest
+import NetworkTests
 
 @testable import NetworkInterfaces
 @testable import NetworkImplementation
 @testable import Rx_Swift
-@testable import NetworkTests
 
 final class NetworkManagerTests: XCTestCase {
 
@@ -57,9 +57,8 @@ final class NetworkManagerTests: XCTestCase {
     func testRequest_InvalidURL_ReturnsError() throws {
 
         setMockResponse(data: nil, response: nil, error: nil)
-        var receivedError: Error?
-        let (_,err):(MockModel?, Error?) = sut.fetch()
-        receivedError = err
+        
+        let (_,receivedError):(MockModel?, Error?) = sut.fetch()
         
         XCTAssertNotNil(receivedError)
         XCTAssertEqual(receivedError as? NetworkError, NetworkError.invalidUrl)

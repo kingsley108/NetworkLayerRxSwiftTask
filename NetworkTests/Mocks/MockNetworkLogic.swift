@@ -2,15 +2,15 @@ import Foundation
 import NetworkInterfaces
 import RxSwift
 
-class MockNetworkLogic: NetworkLogic {
+public class MockNetworkLogic: NetworkLogic {
     
     let networkController: NetworkService
     
-    init(networkController: NetworkService) {
+    public init(networkController: NetworkService) {
         self.networkController = networkController
     }
     
-    func fetchResponse<T: Decodable>() -> Single<T> {
+    public func fetchResponse<T: Decodable>() -> Single<T> {
         let endpoint = MockEndpoint()
         return networkController.request(T.self, endpoint)
     }

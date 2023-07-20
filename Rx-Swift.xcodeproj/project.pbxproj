@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		1F30E51B2A2DF2AB002131DD /* PodcastsEndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F30E51A2A2DF2AB002131DD /* PodcastsEndPoint.swift */; };
 		1F30E51D2A2DF7EF002131DD /* Example.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F30E51C2A2DF7EF002131DD /* Example.swift */; };
+		1F46A9D92A699F55007908BD /* Rx_SwiftNetworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F46A9D82A699F55007908BD /* Rx_SwiftNetworkTests.swift */; };
+		1F46A9E82A69A1E6007908BD /* NetworkTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FF19C792A29F4B7004240B4 /* NetworkTests.framework */; };
 		1F4C81052A29FA7300B0293B /* NetworkImplementationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4C81042A29FA7300B0293B /* NetworkImplementationService.swift */; };
 		1F4C81092A29FE8200B0293B /* PodcastLogicController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4C81082A29FE8200B0293B /* PodcastLogicController.swift */; };
 		1F4C810B2A29FE9400B0293B /* PodcastModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4C810A2A29FE9400B0293B /* PodcastModel.swift */; };
@@ -28,7 +30,6 @@
 		1FF19C242A29F3C3004240B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF19C232A29F3C3004240B4 /* AppDelegate.swift */; };
 		1FF19C262A29F3C3004240B4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF19C252A29F3C3004240B4 /* SceneDelegate.swift */; };
 		1FF19C2D2A29F3C4004240B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FF19C2C2A29F3C4004240B4 /* Assets.xcassets */; };
-		1FF19C3B2A29F3C4004240B4 /* Rx_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF19C3A2A29F3C4004240B4 /* Rx_SwiftTests.swift */; };
 		1FF19C452A29F3C4004240B4 /* Rx_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF19C442A29F3C4004240B4 /* Rx_SwiftUITests.swift */; };
 		1FF19C472A29F3C4004240B4 /* Rx_SwiftUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF19C462A29F3C4004240B4 /* Rx_SwiftUITestsLaunchTests.swift */; };
 		1FF19C5B2A29F465004240B4 /* NetworkInterfaces.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FF19C5A2A29F465004240B4 /* NetworkInterfaces.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -47,6 +48,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		1F46A9DA2A699F55007908BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FF19C182A29F3C3004240B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FF19C1F2A29F3C3004240B4;
+			remoteInfo = "Rx-Swift";
+		};
+		1F46A9E92A69A1E6007908BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FF19C182A29F3C3004240B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FF19C782A29F4B7004240B4;
+			remoteInfo = NetworkTests;
+		};
 		1FB85A9A2A2F0A8400C62623 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 1FF19C182A29F3C3004240B4 /* Project object */;
@@ -149,6 +164,9 @@
 /* Begin PBXFileReference section */
 		1F30E51A2A2DF2AB002131DD /* PodcastsEndPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodcastsEndPoint.swift; sourceTree = "<group>"; };
 		1F30E51C2A2DF7EF002131DD /* Example.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example.swift; sourceTree = "<group>"; };
+		1F46A9D62A699F55007908BD /* Rx-SwiftNetworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rx-SwiftNetworkTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F46A9D82A699F55007908BD /* Rx_SwiftNetworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rx_SwiftNetworkTests.swift; sourceTree = "<group>"; };
+		1F46A9E42A69A1E6007908BD /* NetworkTestsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetworkTestsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F4C81042A29FA7300B0293B /* NetworkImplementationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkImplementationService.swift; sourceTree = "<group>"; };
 		1F4C81062A29FBD800B0293B /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
 		1F4C81082A29FE8200B0293B /* PodcastLogicController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodcastLogicController.swift; sourceTree = "<group>"; };
@@ -166,7 +184,6 @@
 		1FF19C2C2A29F3C4004240B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1FF19C312A29F3C4004240B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1FF19C362A29F3C4004240B4 /* Rx-SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rx-SwiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1FF19C3A2A29F3C4004240B4 /* Rx_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rx_SwiftTests.swift; sourceTree = "<group>"; };
 		1FF19C402A29F3C4004240B4 /* Rx-SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rx-SwiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FF19C442A29F3C4004240B4 /* Rx_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rx_SwiftUITests.swift; sourceTree = "<group>"; };
 		1FF19C462A29F3C4004240B4 /* Rx_SwiftUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rx_SwiftUITestsLaunchTests.swift; sourceTree = "<group>"; };
@@ -180,6 +197,21 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		1F46A9D32A699F55007908BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F46A9E12A69A1E6007908BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F46A9E82A69A1E6007908BD /* NetworkTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1FF19C1D2A29F3C3004240B4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -234,6 +266,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F46A9D72A699F55007908BD /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				1F46A9D82A699F55007908BD /* Rx_SwiftNetworkTests.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		1F46A9DF2A699F8A007908BD /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				1FB85AA62A2F13B900C62623 /* MockNetworkLogic.swift */,
+				1FB85A902A2F02DD00C62623 /* MockModel.swift */,
+				1FB85A8E2A2F01A900C62623 /* MockURLSessionTask.swift */,
+				1FB85A8C2A2F012900C62623 /* MockURLSession.swift */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
 		1FB85A922A2F052E00C62623 /* Helper */ = {
 			isa = PBXGroup;
 			children = (
@@ -275,7 +326,6 @@
 				1FF19C592A29F465004240B4 /* NetworkInterfaces */,
 				1FF19C7A2A29F4B7004240B4 /* NetworkTests */,
 				1FF19C222A29F3C3004240B4 /* Rx-Swift */,
-				1FF19C392A29F3C4004240B4 /* Rx-SwiftTests */,
 				1FF19C432A29F3C4004240B4 /* Rx-SwiftUITests */,
 				1FF19C212A29F3C3004240B4 /* Products */,
 				1FFC3FC12A2E4317008705E4 /* Frameworks */,
@@ -291,6 +341,8 @@
 				1FF19C582A29F465004240B4 /* NetworkInterfaces.framework */,
 				1FF19C692A29F49B004240B4 /* NetworkImplementation.framework */,
 				1FF19C792A29F4B7004240B4 /* NetworkTests.framework */,
+				1F46A9D62A699F55007908BD /* Rx-SwiftNetworkTests.xctest */,
+				1F46A9E42A69A1E6007908BD /* NetworkTestsTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -308,14 +360,6 @@
 				1FF19C312A29F3C4004240B4 /* Info.plist */,
 			);
 			path = "Rx-Swift";
-			sourceTree = "<group>";
-		};
-		1FF19C392A29F3C4004240B4 /* Rx-SwiftTests */ = {
-			isa = PBXGroup;
-			children = (
-				1FF19C3A2A29F3C4004240B4 /* Rx_SwiftTests.swift */,
-			);
-			path = "Rx-SwiftTests";
 			sourceTree = "<group>";
 		};
 		1FF19C432A29F3C4004240B4 /* Rx-SwiftUITests */ = {
@@ -349,11 +393,9 @@
 		1FF19C7A2A29F4B7004240B4 /* NetworkTests */ = {
 			isa = PBXGroup;
 			children = (
+				1F46A9DF2A699F8A007908BD /* Mocks */,
+				1F46A9D72A699F55007908BD /* Tests */,
 				1FF19C7B2A29F4B7004240B4 /* NetworkTests.h */,
-				1FB85A8C2A2F012900C62623 /* MockURLSession.swift */,
-				1FB85A8E2A2F01A900C62623 /* MockURLSessionTask.swift */,
-				1FB85A902A2F02DD00C62623 /* MockModel.swift */,
-				1FB85AA62A2F13B900C62623 /* MockNetworkLogic.swift */,
 			);
 			path = NetworkTests;
 			sourceTree = "<group>";
@@ -396,6 +438,42 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		1F46A9D52A699F55007908BD /* Rx-SwiftNetworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F46A9DE2A699F55007908BD /* Build configuration list for PBXNativeTarget "Rx-SwiftNetworkTests" */;
+			buildPhases = (
+				1F46A9D22A699F55007908BD /* Sources */,
+				1F46A9D32A699F55007908BD /* Frameworks */,
+				1F46A9D42A699F55007908BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F46A9DB2A699F55007908BD /* PBXTargetDependency */,
+			);
+			name = "Rx-SwiftNetworkTests";
+			productName = "Rx-SwiftNetworkTests";
+			productReference = 1F46A9D62A699F55007908BD /* Rx-SwiftNetworkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1F46A9E32A69A1E6007908BD /* NetworkTestsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F46A9EB2A69A1E6007908BD /* Build configuration list for PBXNativeTarget "NetworkTestsTests" */;
+			buildPhases = (
+				1F46A9E02A69A1E6007908BD /* Sources */,
+				1F46A9E12A69A1E6007908BD /* Frameworks */,
+				1F46A9E22A69A1E6007908BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F46A9EA2A69A1E6007908BD /* PBXTargetDependency */,
+			);
+			name = NetworkTestsTests;
+			productName = NetworkTestsTests;
+			productReference = 1F46A9E42A69A1E6007908BD /* NetworkTestsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		1FF19C1F2A29F3C3004240B4 /* Rx-Swift */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1FF19C4A2A29F3C4004240B4 /* Build configuration list for PBXNativeTarget "Rx-Swift" */;
@@ -534,6 +612,13 @@
 				LastSwiftUpdateCheck = 1420;
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {
+					1F46A9D52A699F55007908BD = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 1FF19C1F2A29F3C3004240B4;
+					};
+					1F46A9E32A69A1E6007908BD = {
+						CreatedOnToolsVersion = 14.2;
+					};
 					1FF19C1F2A29F3C3004240B4 = {
 						CreatedOnToolsVersion = 14.2;
 					};
@@ -581,11 +666,27 @@
 				1FF19C572A29F465004240B4 /* NetworkInterfaces */,
 				1FF19C682A29F49B004240B4 /* NetworkImplementation */,
 				1FF19C782A29F4B7004240B4 /* NetworkTests */,
+				1F46A9D52A699F55007908BD /* Rx-SwiftNetworkTests */,
+				1F46A9E32A69A1E6007908BD /* NetworkTestsTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		1F46A9D42A699F55007908BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F46A9E22A69A1E6007908BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1FF19C1E2A29F3C3004240B4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -632,6 +733,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		1F46A9D22A699F55007908BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F46A9D92A699F55007908BD /* Rx_SwiftNetworkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F46A9E02A69A1E6007908BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1FF19C1C2A29F3C3004240B4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -651,7 +767,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1FF19C3B2A29F3C4004240B4 /* Rx_SwiftTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -696,6 +811,16 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		1F46A9DB2A699F55007908BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1FF19C1F2A29F3C3004240B4 /* Rx-Swift */;
+			targetProxy = 1F46A9DA2A699F55007908BD /* PBXContainerItemProxy */;
+		};
+		1F46A9EA2A69A1E6007908BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1FF19C782A29F4B7004240B4 /* NetworkTests */;
+			targetProxy = 1F46A9E92A69A1E6007908BD /* PBXContainerItemProxy */;
+		};
 		1FB85A9B2A2F0A8400C62623 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 1FF19C572A29F465004240B4 /* NetworkInterfaces */;
@@ -734,6 +859,74 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		1F46A9DC2A699F55007908BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UKVXB7RK5W;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-0-sBaby.Rx-SwiftNetworkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rx-Swift.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Rx-Swift";
+			};
+			name = Debug;
+		};
+		1F46A9DD2A699F55007908BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UKVXB7RK5W;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-0-sBaby.Rx-SwiftNetworkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rx-Swift.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Rx-Swift";
+			};
+			name = Release;
+		};
+		1F46A9EC2A69A1E6007908BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UKVXB7RK5W;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-0-sBaby.NetworkTestsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1F46A9ED2A69A1E6007908BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UKVXB7RK5W;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-0-sBaby.NetworkTestsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		1FF19C482A29F3C4004240B4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1172,6 +1365,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		1F46A9DE2A699F55007908BD /* Build configuration list for PBXNativeTarget "Rx-SwiftNetworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F46A9DC2A699F55007908BD /* Debug */,
+				1F46A9DD2A699F55007908BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F46A9EB2A69A1E6007908BD /* Build configuration list for PBXNativeTarget "NetworkTestsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F46A9EC2A69A1E6007908BD /* Debug */,
+				1F46A9ED2A69A1E6007908BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		1FF19C1B2A29F3C3004240B4 /* Build configuration list for PBXProject "Rx-Swift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
